@@ -48,7 +48,7 @@ $(document).on('turbolinks:load', function(){
       Stripe.createToken({
         number: ccNum,
         cvc: cvcNum,
-        exp_month: expMonth
+        exp_month: expMonth,
         exp_year: expYear
       }, stripeResponseHandler);
     }
